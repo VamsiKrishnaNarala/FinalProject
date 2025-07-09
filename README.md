@@ -44,3 +44,9 @@ To develop and evaluate models that can identify unusual behaviors in network tr
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
+
+## 🚀 Hun Code
+
+1. Install dependencies:
+   ```bash
+   jupyter notebook FinalCode.ipynb
