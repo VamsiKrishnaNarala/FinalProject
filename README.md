@@ -18,14 +18,16 @@ To develop and evaluate models that can identify unusual behaviors in network tr
 
 ---
 
-## 🗂 Dataset
+## 📊 Dataset: KDD Cup 1999
 
-- The dataset contains **network traffic records** with features such as:
-  - Source/Destination IP, Port
-  - Protocol
-  - Packet Size
-  - Duration
-  - Flags, etc.
+**Source:** [Kaggle - galaxyh/kdd-cup-1999-data](https://www.kaggle.com/datasets/galaxyh/kdd-cup-1999-data)
+
+- Records ~4.9 million connections with 41 features:
+  - Duration, Protocol type, Service, Flag, Src bytes, Dst bytes, etc.
+- Each record is labeled as:
+  - `normal`
+  - or one of 22 types of attacks (e.g., DoS, R2L, U2R, Probe)
+- We use **only the features** for unsupervised learning (i.e., without labels during training).
 
 ---
 
